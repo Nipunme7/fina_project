@@ -1,0 +1,44 @@
+.comments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.comment {
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    padding: 1rem;
+    border-left: 3px solid var(--accent-primary);
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.comment-author {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.comment-date {
+    color: var(--text-secondary);
+}
+
+.comment-body {
+    color: var(--text-primary);
+}
+
+.comment-body p {
+    margin: 0;
+}
+
+.no-comments {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    color: var(--text-secondary);
+}
